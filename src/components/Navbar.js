@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className="header-logo">
                     <Link className="link" to='/'>Shoe Store</Link>
                 </div>
-                <div className="search-container">
+                <div className="search-container" style={{display: 'none'}}>
                     <section className="search-box">
                         <i className="fa fa-search" aria-hidden="true"></i>
                         <input className="search-input" id="search-input" placeholder="Search" />
