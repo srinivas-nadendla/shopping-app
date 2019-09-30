@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.nav-wrapper {
+  width: 100%;
+  background-color: #00A4EF ;
+  color: white;
+}
+.header-logo {
+  display: inline-block;
+  width: 20%;
+}
+header {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 15px 20px;
+}
+.my-cart {
+  float: right;
+}
+.search-container {
+  display: inline-block;
+  width: 60%;
+}
+.search-box {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+.fa-search {
+  position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #00A4EF;
+}
+.search-input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 8px 30px;
+  border: 1px solid#00A4EF;
+}
+.fa-times-circle {
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+  color: black;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+.list-item {
+  float: left;
+ width: 31%;
+ margin: 1%;
+ background-color: white;
+ border: 1px solid #00A4EF; 
+}
+.list-item-image {
+  width: 100%;
+  height: 250px;
+}
+.plp-actual-price {
+  text-decoration: line-through;
+    font-size: 14px;
+    color: #878787;
+    padding-left: 5px;
+}
+.plp-off {
+  color: #388e3c;
+    font-size: 13px;
+    letter-spacing: -.2px;
+    font-weight: 500;
+    padding-left: 4px;
+}
+.plp-price {
+  font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+}
+.plp-cart-icon {
+  position: absolute;
+    right: 10px;
+    bottom: -15px;
+    font-size: 25px;
+    color: #00A4EF;
+    cursor: pointer;
+}
+.list-item-image-container {
+  position: relative;
+  border-bottom: 1px solid beige;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.cart-empty-link {
+  text-decoration: none;
+}
+.empty-cart-container {
+  text-align: center;
+}
+.list-item-title {
+  color: #878787;
+  font-size: 14px;
+  font-weight: 500;
+}
+.pdp-west-panel {
+  width: 40%;
+  float: left;
+  max-width: 400px;
+}
+.cart-list-image {
+  max-width: 150px;
+}
+.cart-list {
+  border: 1px solid grey;
+  padding: 10px;
+  margin-top: 10px;
+}
+.cart-img-container {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+.cart-conatiner {
+  margin: 15px 50px;
+}
+.cart-list-details, .cart-delivery, .cart-west, .cart-east {
+  display: inline-block;
+}
+.cart-delivery {
+  float: right;
+}
+.cart-header {
+  padding: 10px;
+}
+.cart-west {
+  float: left;
+  width: 60%;
+  margin-right: 5%;
+}
+.cart-east {
+  width: 30%;
+  
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.price-inner {
+  border: 1px solid grey;
+  padding: 10px;
+  margin-top: 10px;
+}
+.price-header {
+  padding: 10px;
+}
+.delivery-section {
+  border-bottom: 1px dotted gray;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.plp-titile-card {
+  padding: 10px;
+}
+.pdp-east-panel {
+  padding: 10px;
+}
+.pdp-addto-cart-btn {
+    padding: 10px;
+    float: left;
+    margin: 10px 50px;
+    background-color: #4CAF50;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+.pdp-container {
+    border-bottom: 1px solid gainsboro;
+}
